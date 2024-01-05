@@ -1,0 +1,897 @@
+[
+  {
+    "id": "1vIxKGhakcDC5o86btIAFQ",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "VEz-ZG6QGKPPqdxSXstZ2Q",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "VEz-ZG6QGKPPqdxSXstZ2Q",
+    "alias": "breakfast_brunch",
+    "title": "Breakfast & Brunch"
+  },
+  {
+    "id": "VEz-ZG6QGKPPqdxSXstZ2Q",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "3sTQ3tgeFCi6jOVoWnjgOQ",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "3sTQ3tgeFCi6jOVoWnjgOQ",
+    "alias": "newamerican",
+    "title": "New American"
+  },
+  {
+    "id": "Jl7xtttS0aRCJAEBeMwy6w",
+    "alias": "museums",
+    "title": "Museums"
+  },
+  {
+    "id": "ep0b13pJhM3Ot4iCcSYcbQ",
+    "alias": "mexican",
+    "title": "Mexican"
+  },
+  {
+    "id": "tCjZNe_9Bq96H9V6KR1BIQ",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "tCjZNe_9Bq96H9V6KR1BIQ",
+    "alias": "bars",
+    "title": "Bars"
+  },
+  {
+    "id": "tCjZNe_9Bq96H9V6KR1BIQ",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "LFcyMEuxvpMM_7XlQTOfeQ",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "LFcyMEuxvpMM_7XlQTOfeQ",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "LFcyMEuxvpMM_7XlQTOfeQ",
+    "alias": "steak",
+    "title": "Steakhouses"
+  },
+  {
+    "id": "Axd-xasBA8F_pUFhFXvunQ",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "L2OEE0-wknvES9fvocCzXQ",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "L2OEE0-wknvES9fvocCzXQ",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "L2OEE0-wknvES9fvocCzXQ",
+    "alias": "tapasmallplates",
+    "title": "Tapas/Small Plates"
+  },
+  {
+    "id": "rt1y91nSko9ODG6Kdsxm8g",
+    "alias": "lounges",
+    "title": "Lounges"
+  },
+  {
+    "id": "rt1y91nSko9ODG6Kdsxm8g",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "u_z59Aor_K5LFXutmjBmTA",
+    "alias": "juicebars",
+    "title": "Juice Bars & Smoothies"
+  },
+  {
+    "id": "u_z59Aor_K5LFXutmjBmTA",
+    "alias": "icecream",
+    "title": "Ice Cream & Frozen Yogurt"
+  },
+  {
+    "id": "u_z59Aor_K5LFXutmjBmTA",
+    "alias": "shavedice",
+    "title": "Shaved Ice"
+  },
+  {
+    "id": "Btya29dtHno-LiPBxHtdzw",
+    "alias": "vietnamese",
+    "title": "Vietnamese"
+  },
+  {
+    "id": "LFiC7xhhbgT5AgCsNi-VgA",
+    "alias": "thai",
+    "title": "Thai"
+  },
+  {
+    "id": "amL1c1lZpOt7UZUzR4yK0A",
+    "alias": "soulfood",
+    "title": "Soul Food"
+  },
+  {
+    "id": "amL1c1lZpOt7UZUzR4yK0A",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "amL1c1lZpOt7UZUzR4yK0A",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "gW6clZCAFZylmsv9DLoX1A",
+    "alias": "grocery",
+    "title": "Grocery"
+  },
+  {
+    "id": "gW6clZCAFZylmsv9DLoX1A",
+    "alias": "delis",
+    "title": "Delis"
+  },
+  {
+    "id": "gW6clZCAFZylmsv9DLoX1A",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "kUsduETMrhncQEfISe7BJQ",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "kUsduETMrhncQEfISe7BJQ",
+    "alias": "cocktailbars",
+    "title": "Cocktail Bars"
+  },
+  {
+    "id": "dtQvyNgfKpeiaNEfVNFFJA",
+    "alias": "soup",
+    "title": "Soup"
+  },
+  {
+    "id": "dtQvyNgfKpeiaNEfVNFFJA",
+    "alias": "vietnamese",
+    "title": "Vietnamese"
+  },
+  {
+    "id": "4VNK2dJZYACF68146zTg3w",
+    "alias": "diners",
+    "title": "Diners"
+  },
+  {
+    "id": "4VNK2dJZYACF68146zTg3w",
+    "alias": "breakfast_brunch",
+    "title": "Breakfast & Brunch"
+  },
+  {
+    "id": "jP9_wYs34CUUlTei0iSo4w",
+    "alias": "bars",
+    "title": "Bars"
+  },
+  {
+    "id": "jP9_wYs34CUUlTei0iSo4w",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "7EE-LUavX5Xbxo90RXfvFg",
+    "alias": "asianfusion",
+    "title": "Asian Fusion"
+  },
+  {
+    "id": "7EE-LUavX5Xbxo90RXfvFg",
+    "alias": "chinese",
+    "title": "Chinese"
+  },
+  {
+    "id": "7EE-LUavX5Xbxo90RXfvFg",
+    "alias": "sushi",
+    "title": "Sushi Bars"
+  },
+  {
+    "id": "S9OrirZcISCZsMFR8jG9iw",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "S9OrirZcISCZsMFR8jG9iw",
+    "alias": "bars",
+    "title": "Bars"
+  },
+  {
+    "id": "yMF5H3R--xiN60JnbOATvg",
+    "alias": "sushi",
+    "title": "Sushi Bars"
+  },
+  {
+    "id": "yMF5H3R--xiN60JnbOATvg",
+    "alias": "thai",
+    "title": "Thai"
+  },
+  {
+    "id": "ntgddddjVxE9n5lZvH5FTA",
+    "alias": "diners",
+    "title": "Diners"
+  },
+  {
+    "id": "ntgddddjVxE9n5lZvH5FTA",
+    "alias": "breakfast_brunch",
+    "title": "Breakfast & Brunch"
+  },
+  {
+    "id": "ntgddddjVxE9n5lZvH5FTA",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "n7QNqXojpzyq5iAzRl5xfQ",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "HFoZuMi1blyJFwEpEoxoSw",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "HFoZuMi1blyJFwEpEoxoSw",
+    "alias": "salad",
+    "title": "Salad"
+  },
+  {
+    "id": "HFoZuMi1blyJFwEpEoxoSw",
+    "alias": "soup",
+    "title": "Soup"
+  },
+  {
+    "id": "CI2BdTrNamaxVBABrGsGkw",
+    "alias": "breakfast_brunch",
+    "title": "Breakfast & Brunch"
+  },
+  {
+    "id": "CI2BdTrNamaxVBABrGsGkw",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "CI2BdTrNamaxVBABrGsGkw",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "-JnMwidEWOoteatbQvYdJA",
+    "alias": "mediterranean",
+    "title": "Mediterranean"
+  },
+  {
+    "id": "-JnMwidEWOoteatbQvYdJA",
+    "alias": "halal",
+    "title": "Halal"
+  },
+  {
+    "id": "-JnMwidEWOoteatbQvYdJA",
+    "alias": "chickenshop",
+    "title": "Chicken Shop"
+  },
+  {
+    "id": "bj3C4aSU6koe615RwzNh_A",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "0PEdHNa8V_2YJJV8j8Ubvw",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "0PEdHNa8V_2YJJV8j8Ubvw",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "0PEdHNa8V_2YJJV8j8Ubvw",
+    "alias": "sportsbars",
+    "title": "Sports Bars"
+  },
+  {
+    "id": "Bs67R1o0v1GJF8-O4IQR6Q",
+    "alias": "beaches",
+    "title": "Beaches"
+  },
+  {
+    "id": "BARqCk3PRF0fJ74lzpPLCA",
+    "alias": "newamerican",
+    "title": "New American"
+  },
+  {
+    "id": "BARqCk3PRF0fJ74lzpPLCA",
+    "alias": "danceclubs",
+    "title": "Dance Clubs"
+  },
+  {
+    "id": "BARqCk3PRF0fJ74lzpPLCA",
+    "alias": "venues",
+    "title": "Venues & Event Spaces"
+  },
+  {
+    "id": "Q4HUyU0N_eiSM4xtr_bQsQ",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "Q4HUyU0N_eiSM4xtr_bQsQ",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "Q4HUyU0N_eiSM4xtr_bQsQ",
+    "alias": "sportsbars",
+    "title": "Sports Bars"
+  },
+  {
+    "id": "qLyoXtpTIHwo8JtRawPf2A",
+    "alias": "chinese",
+    "title": "Chinese"
+  },
+  {
+    "id": "N1B27RsUp3eoz6ZjxKAGWQ",
+    "alias": "hotdog",
+    "title": "Hot Dogs"
+  },
+  {
+    "id": "N1B27RsUp3eoz6ZjxKAGWQ",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "N1B27RsUp3eoz6ZjxKAGWQ",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "JlNIfKibqgv6nvrTk6cXXA",
+    "alias": "landmarks",
+    "title": "Landmarks & Historical Buildings"
+  },
+  {
+    "id": "JlNIfKibqgv6nvrTk6cXXA",
+    "alias": "museums",
+    "title": "Museums"
+  },
+  {
+    "id": "OPIVWLH_awgKaAkjmP327g",
+    "alias": "caribbean",
+    "title": "Caribbean"
+  },
+  {
+    "id": "OPIVWLH_awgKaAkjmP327g",
+    "alias": "soulfood",
+    "title": "Soul Food"
+  },
+  {
+    "id": "phm7xRg686M-Yw2_Me-2Vg",
+    "alias": "soulfood",
+    "title": "Soul Food"
+  },
+  {
+    "id": "phm7xRg686M-Yw2_Me-2Vg",
+    "alias": "bbq",
+    "title": "Barbeque"
+  },
+  {
+    "id": "phm7xRg686M-Yw2_Me-2Vg",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "PN2JvlhEsfm3A3Vo5atsmw",
+    "alias": "mexican",
+    "title": "Mexican"
+  },
+  {
+    "id": "DJnP30XYNJ2WYyPlRmPKVQ",
+    "alias": "parks",
+    "title": "Parks"
+  },
+  {
+    "id": "C-TrHHo9V4xzDTpVDEiO_w",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "C-TrHHo9V4xzDTpVDEiO_w",
+    "alias": "mexican",
+    "title": "Mexican"
+  },
+  {
+    "id": "C-TrHHo9V4xzDTpVDEiO_w",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "nCZR84HJcR1MTjDrJfHkcg",
+    "alias": "foodtrucks",
+    "title": "Food Trucks"
+  },
+  {
+    "id": "nCZR84HJcR1MTjDrJfHkcg",
+    "alias": "comfortfood",
+    "title": "Comfort Food"
+  },
+  {
+    "id": "XW_bTtkw0x7-IW4LOkN-aw",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "XW_bTtkw0x7-IW4LOkN-aw",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "XW_bTtkw0x7-IW4LOkN-aw",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "EMS59ZCu1E-Iti7Zzkmy_Q",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "EMS59ZCu1E-Iti7Zzkmy_Q",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "RlR8Rs1x9mmmsMRosVJfAQ",
+    "alias": "convenience",
+    "title": "Convenience Stores"
+  },
+  {
+    "id": "RlR8Rs1x9mmmsMRosVJfAQ",
+    "alias": "servicestations",
+    "title": "Gas Stations"
+  },
+  {
+    "id": "RlR8Rs1x9mmmsMRosVJfAQ",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "8fMQvIaEk5bSEPIfZ_tWjw",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "8fMQvIaEk5bSEPIfZ_tWjw",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "KE4QLu7koGYH2BME6bzpSg",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "KE4QLu7koGYH2BME6bzpSg",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "OoqHpNrKjHuNXhEBbkWRgQ",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "OoqHpNrKjHuNXhEBbkWRgQ",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "y0orTgwPZy4GJws1mO_qPw",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "y0orTgwPZy4GJws1mO_qPw",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "y0orTgwPZy4GJws1mO_qPw",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "2Zm-QYlo7S4uVtVob8Ao5Q",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "2Zm-QYlo7S4uVtVob8Ao5Q",
+    "alias": "divebars",
+    "title": "Dive Bars"
+  },
+  {
+    "id": "9hRzSduU8CQfwXwLRuBOzw",
+    "alias": "chinese",
+    "title": "Chinese"
+  },
+  {
+    "id": "73ZsPZzDo9YhlByb3JZS5w",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "73ZsPZzDo9YhlByb3JZS5w",
+    "alias": "foodtrucks",
+    "title": "Food Trucks"
+  },
+  {
+    "id": "eWLfQTpl53Tuo7_BSMlT2Q",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "eWLfQTpl53Tuo7_BSMlT2Q",
+    "alias": "mexican",
+    "title": "Mexican"
+  },
+  {
+    "id": "eh2RDB3mn5-pQ5PXHSQD3A",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "xil2ZirV_x9bWPDbhV5D2A",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "xil2ZirV_x9bWPDbhV5D2A",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "xil2ZirV_x9bWPDbhV5D2A",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "g3iwsPXSakzszNXkmDwqYQ",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "g3iwsPXSakzszNXkmDwqYQ",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "g3iwsPXSakzszNXkmDwqYQ",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "YQKbjD6ER7xZzdptswr7VA",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "aMP751nEge5Z54CYpUj6_g",
+    "alias": "chinese",
+    "title": "Chinese"
+  },
+  {
+    "id": "ZGMXX254jazyKiwuMzzk4w",
+    "alias": "servicestations",
+    "title": "Gas Stations"
+  },
+  {
+    "id": "ZGMXX254jazyKiwuMzzk4w",
+    "alias": "convenience",
+    "title": "Convenience Stores"
+  },
+  {
+    "id": "ZGMXX254jazyKiwuMzzk4w",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "_vuiGfDFMllSyspLgqU8EA",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "_vuiGfDFMllSyspLgqU8EA",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "_vuiGfDFMllSyspLgqU8EA",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "jTZ3j1lpk3QI3Pv_J6QZRg",
+    "alias": "mexican",
+    "title": "Mexican"
+  },
+  {
+    "id": "jTZ3j1lpk3QI3Pv_J6QZRg",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "jTZ3j1lpk3QI3Pv_J6QZRg",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "-ETkRH7UQ0GodZCaDY8DlA",
+    "alias": "chinese",
+    "title": "Chinese"
+  },
+  {
+    "id": "9wxS_ZwR7cqQN4dDDDdeRg",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "9wxS_ZwR7cqQN4dDDDdeRg",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "9wxS_ZwR7cqQN4dDDDdeRg",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "gs1UuxZdDj4w0gJ6TouC7Q",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "YbM6LlwU38UglVEc8XOf0w",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "YbM6LlwU38UglVEc8XOf0w",
+    "alias": "burgers",
+    "title": "Burgers"
+  },
+  {
+    "id": "YbM6LlwU38UglVEc8XOf0w",
+    "alias": "fooddeliveryservices",
+    "title": "Food Delivery Services"
+  },
+  {
+    "id": "M702mRZWH0npDVjZhciT5Q",
+    "alias": "donuts",
+    "title": "Donuts"
+  },
+  {
+    "id": "M702mRZWH0npDVjZhciT5Q",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "P1lV_U625E_SLho1znaycA",
+    "alias": "parks",
+    "title": "Parks"
+  },
+  {
+    "id": "wEBi9z5BUziSUOOahZRBVQ",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "wEBi9z5BUziSUOOahZRBVQ",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "wEBi9z5BUziSUOOahZRBVQ",
+    "alias": "chickenshop",
+    "title": "Chicken Shop"
+  },
+  {
+    "id": "nhzJ8Tsjt_Mw2cnvFEHhdg",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "zwdAQo9oCAxS_iHU-w-ilQ",
+    "alias": "icecream",
+    "title": "Ice Cream & Frozen Yogurt"
+  },
+  {
+    "id": "zwdAQo9oCAxS_iHU-w-ilQ",
+    "alias": "desserts",
+    "title": "Desserts"
+  },
+  {
+    "id": "zwdAQo9oCAxS_iHU-w-ilQ",
+    "alias": "shavedice",
+    "title": "Shaved Ice"
+  },
+  {
+    "id": "-ywG-Pa7ABoBTSjq4qVMug",
+    "alias": "waterdelivery",
+    "title": "Water Delivery"
+  },
+  {
+    "id": "-ywG-Pa7ABoBTSjq4qVMug",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "eNAmiOUdwWZ8WzmevGgmNw",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "eNAmiOUdwWZ8WzmevGgmNw",
+    "alias": "breakfast_brunch",
+    "title": "Breakfast & Brunch"
+  },
+  {
+    "id": "eNAmiOUdwWZ8WzmevGgmNw",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "PEHSgIF6vcnGKb9Ke5-wug",
+    "alias": "donuts",
+    "title": "Donuts"
+  },
+  {
+    "id": "PEHSgIF6vcnGKb9Ke5-wug",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "ygamZtQOFM2BRZVcxQLjSQ",
+    "alias": "bubbletea",
+    "title": "Bubble Tea"
+  },
+  {
+    "id": "ygamZtQOFM2BRZVcxQLjSQ",
+    "alias": "juicebars",
+    "title": "Juice Bars & Smoothies"
+  },
+  {
+    "id": "CYD6l8-dvsV87WyGzG_ILA",
+    "alias": "golf",
+    "title": "Golf"
+  },
+  {
+    "id": "9tXAKDl7kkGXKMgcr-Gdig",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "G2q6Aco46oLe8eHP4HKrqw",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "G2q6Aco46oLe8eHP4HKrqw",
+    "alias": "chicken_wings",
+    "title": "Chicken Wings"
+  },
+  {
+    "id": "riMtoKqQV3neFC0FgBxoog",
+    "alias": "beaches",
+    "title": "Beaches"
+  },
+  {
+    "id": "9jh3gioL8WQdZPOWXDdQog",
+    "alias": "italian",
+    "title": "Italian"
+  },
+  {
+    "id": "9jh3gioL8WQdZPOWXDdQog",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "pn0KzW2nsGOgo1BNLB-GBA",
+    "alias": "foodtrucks",
+    "title": "Food Trucks"
+  },
+  {
+    "id": "pn0KzW2nsGOgo1BNLB-GBA",
+    "alias": "bbq",
+    "title": "Barbeque"
+  },
+  {
+    "id": "pn0KzW2nsGOgo1BNLB-GBA",
+    "alias": "food_court",
+    "title": "Food Court"
+  },
+  {
+    "id": "dUNwhmS_sGzqzMsZ7iTA1w",
+    "alias": "servicestations",
+    "title": "Gas Stations"
+  },
+  {
+    "id": "dUNwhmS_sGzqzMsZ7iTA1w",
+    "alias": "convenience",
+    "title": "Convenience Stores"
+  },
+  {
+    "id": "dUNwhmS_sGzqzMsZ7iTA1w",
+    "alias": "coffee",
+    "title": "Coffee & Tea"
+  },
+  {
+    "id": "0N3DlkzJO2JDhW8px1TyyA",
+    "alias": "mexican",
+    "title": "Mexican"
+  },
+  {
+    "id": "nASxM9D9ySO9fWe5OUj9kQ",
+    "alias": "sandwiches",
+    "title": "Sandwiches"
+  },
+  {
+    "id": "nASxM9D9ySO9fWe5OUj9kQ",
+    "alias": "hotdogs",
+    "title": "Fast Food"
+  },
+  {
+    "id": "gFeHqamBYW0qfxdkeAUvcA",
+    "alias": "tradamerican",
+    "title": "American"
+  },
+  {
+    "id": "gFeHqamBYW0qfxdkeAUvcA",
+    "alias": "diners",
+    "title": "Diners"
+  },
+  {
+    "id": "Y0gChqGRkkx5hKqFDzbdRQ",
+    "alias": "golf",
+    "title": "Golf"
+  },
+  {
+    "id": "VgoGOgcn-jf8bCPVY9Y2fg",
+    "alias": "seafood",
+    "title": "Seafood"
+  },
+  {
+    "id": "aEHlEoulm_r289Kj7edZUA",
+    "alias": "pizza",
+    "title": "Pizza"
+  },
+  {
+    "id": "aEHlEoulm_r289Kj7edZUA",
+    "alias": "italian",
+    "title": "Italian"
+  }
+]

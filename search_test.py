@@ -1,0 +1,69 @@
+"""
+Response is JSON, top level is list of businesses, each business is a dictionary
+Price: on scale of 1 to 4 $, with 4 being the most expensive
+Attributes cost money, not in free tier but would be cool.
+Basic Data:  id, name, price, rating, review_count
+Category Data:  1 to Many, alias and title
+
+Note:  This search only returns 87 total restaurants, but there is ~3000 in Delaware
+Not2:  Changing search to "wilmington, de" returns 2100 restaurants, "dover, de" returns 337
+Note3: If we can get long, lat and radius to cover all DE, then filter results for only restaurants with state = DE it might work.
+Note4: Note3 seems overcomplicated, maybe we just do Wilmington, DE and advert is a "NomNomNavigator for Wilmington"
+"""
+import requests
+import json
+
+
+# Max limit is 50 per Yelp API Docs, but maybe I can get more, nope its 50
+url = "https://api.yelp.com/v3/businesses/search"
+headers = {
+    "authorization": "Bearer Is7-_G9AVO4wovUp2ABGsD2z7l2K2StOWQTIfJ_kxpgeqAcXZ46LhFRz2D8ISYFd6Rib0X7FVbvZlgsGON-G0TSFQD051G7qbUDaAQbd4NZtkCuD0wOEzbbkDRaXZXYx",
+    "accept": "application/json"
+}
+
+# Going to build two json files - one for basic details, one that is a list of 1 to many categories for each.
+restaurants = []
+restaurant_categories = []
+
+# Try to call the API 2x, get all the restaurants from each call
+for i in range(0, 2):
+    if i == 0:
+        new_offset = "0"
+    else:
+        new_offset = str((50 * i) + 1)
+    params = {
+        "location": "Delaware",
+        "limit": "50",
+        "offset": new_offset
+    }
+    response = requests.get(url, headers=headers, params=params)
+    r_list = response.json()
+    print(r_list)
+
+    for r in r_list['businesses']:
+        r_details = {
+            "id": r["id"],
+            "name": r["name"],
+            "review_count": r["review_count"],
+            "rating": r["rating"],
+            "price_range": r.get("price")
+        }
+        c_id = r["id"]
+        restaurants.append(r_details)
+        for cat in r['categories']:
+            r_cat = {
+                "id": c_id,
+                "alias": cat["alias"],
+                "title": cat["title"]
+            }
+            restaurant_categories.append(r_cat)
+
+tot_r = len(restaurants)
+print(tot_r)
+
+
+with open('fetched_data/restaurants.json', 'w') as f:
+    json.dump(restaurants, f, indent=2)
+
+with open('fetched_data/restaurant_categories.json', 'w') as f:
+    json.dump(restaurant_categories, f, indent=2)
