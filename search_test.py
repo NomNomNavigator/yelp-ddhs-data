@@ -46,6 +46,8 @@ for i in range(0, 2):
 
     # Process each restaurant in response
     for r in r_list['businesses']:
+        # Extract the image URL directly from each response
+        image_url = r.get("image_url", "")
         # This is the restaurant details
         r_details = {
             "id": r["id"],
@@ -57,8 +59,11 @@ for i in range(0, 2):
                 "city": r.get("location", {}).get("city"),
                 "state": r.get("location", {}).get("state"),
             },
-            "image_url": r.get("insert link to image", "")
+            "image_url": image_url
         }
+        # Append the details of restaurant to the list named restaurant
+        restaurants.append(r_details)
+        # Process restaurant categories
         c_id = r["id"]
         restaurants.append(r_details)
         for cat in r['categories']:
