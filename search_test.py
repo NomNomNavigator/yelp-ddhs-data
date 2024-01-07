@@ -23,25 +23,31 @@ headers = {
 }
 
 # Going to build two json files - one for basic details, one that is a list of 1 to many categories for each.
+# Initializes the lists to store restaurant categories and details
 restaurants = []
 restaurant_categories = []
 
 # Try to call the API 2x, get all the restaurants from each call
+# Loop to make API requests; with range being the number of API requests to make
 for i in range(0, 2):
     if i == 0:
         new_offset = "0"
     else:
         new_offset = str((50 * i) + 1)
+    # Parameters for the API
     params = {
         "location": "Delaware",
         "limit": "50",
         "offset": new_offset
     }
+    # This code makes the API request
     response = requests.get(url, headers=headers, params=params)
     r_list = response.json()
     print(r_list)
 
+    # Process each restaurant in response
     for r in r_list['businesses']:
+        # This is the restaurant details
         r_details = {
             "id": r["id"],
             "name": r["name"],
