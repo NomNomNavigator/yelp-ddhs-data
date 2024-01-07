@@ -12,12 +12,13 @@ Note4: Note3 seems overcomplicated, maybe we just do Wilmington, DE and advert i
 """
 import requests
 import json
+from config import bearer_token
 
 
 # Max limit is 50 per Yelp API Docs, but maybe I can get more, nope its 50
 url = "https://api.yelp.com/v3/businesses/search"
 headers = {
-    "authorization": "Bearer Is7-_G9AVO4wovUp2ABGsD2z7l2K2StOWQTIfJ_kxpgeqAcXZ46LhFRz2D8ISYFd6Rib0X7FVbvZlgsGON-G0TSFQD051G7qbUDaAQbd4NZtkCuD0wOEzbbkDRaXZXYx",
+    "authorization": bearer_token,
     "accept": "application/json"
 }
 
