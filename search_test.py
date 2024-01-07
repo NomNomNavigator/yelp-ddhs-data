@@ -14,7 +14,6 @@ import requests
 import json
 from config import bearer_token
 
-
 # Max limit is 50 per Yelp API Docs, but maybe I can get more, nope its 50
 url = "https://api.yelp.com/v3/businesses/search"
 headers = {
@@ -53,7 +52,12 @@ for i in range(0, 2):
             "name": r["name"],
             "review_count": r["review_count"],
             "rating": r["rating"],
-            "price_range": r.get("price")
+            "price_range": r.get("price"),
+            "location": {
+                "city": r.get("location", {}).get("city"),
+                "state": r.get("location", {}).get("state"),
+            },
+            "image_url": r.get("insert link to image", "")
         }
         c_id = r["id"]
         restaurants.append(r_details)
@@ -67,7 +71,6 @@ for i in range(0, 2):
 
 tot_r = len(restaurants)
 print(tot_r)
-
 
 with open('fetched_data/restaurants.json', 'w') as f:
     json.dump(restaurants, f, indent=2)
