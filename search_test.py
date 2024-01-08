@@ -59,7 +59,9 @@ for i in range(0, 2):
                 "city": r.get("location", {}).get("city"),
                 "state": r.get("location", {}).get("state"),
             },
-            "image_url": image_url
+            "image_url": image_url,
+            "alias": r["categories"][0]["alias"],
+            "title": r["categories"][0]["title"]
         }
         # Append the details of restaurant to the list named restaurant
         restaurants.append(r_details)
