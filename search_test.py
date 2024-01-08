@@ -21,66 +21,74 @@ headers = {
     "accept": "application/json"
 }
 
-# Going to build two json files - one for basic details, one that is a list of 1 to many categories for each.
-# Initializes the lists to store restaurant categories and details
-restaurants = []
-restaurant_categories = []
 
-# Try to call the API 2x, get all the restaurants from each call
-# Loop to make API requests; with range being the number of API requests to make
-for i in range(0, 2):
-    if i == 0:
-        new_offset = "0"
-    else:
-        new_offset = str((50 * i) + 1)
-    # Parameters for the API
-    params = {
-        "location": "Delaware",
-        "limit": "50",
-        "offset": new_offset
-    }
-    # This code makes the API request
-    response = requests.get(url, headers=headers, params=params)
-    r_list = response.json()
-    print(r_list)
+def fetch_and_save_data(location):
+    # Going to build two json files - one for basic details, one that is a list of 1 to many categories for each.
+    # Initializes the lists to store restaurant categories and details
+    restaurants = []
+    restaurant_categories = []
 
-    # Process each restaurant in response
-    for r in r_list['businesses']:
-        # Extract the image URL directly from each response
-        image_url = r.get("image_url", "")
-        # This is the restaurant details
-        r_details = {
-            "id": r["id"],
-            "name": r["name"],
-            "review_count": r["review_count"],
-            "rating": r["rating"],
-            "price_range": r.get("price"),
-            "location": {
-                "city": r.get("location", {}).get("city"),
-                "state": r.get("location", {}).get("state"),
-            },
-            "image_url": image_url,
-            "alias": r["categories"][0]["alias"],
-            "title": r["categories"][0]["title"]
+    # Try to call the API 2x, get all the restaurants from each call
+    # Loop to make API requests; with range being the number of API requests to make
+    for i in range(0, 2):
+        if i == 0:
+            new_offset = "0"
+        else:
+            new_offset = str((50 * i) + 1)
+        # Parameters for the API
+        params = {
+            "location": location,
+            "limit": "50",
+            "offset": new_offset
         }
-        # Append the details of restaurant to the list named restaurant
-        restaurants.append(r_details)
-        # Process restaurant categories
-        c_id = r["id"]
-        restaurants.append(r_details)
-        for cat in r['categories']:
-            r_cat = {
-                "id": c_id,
-                "alias": cat["alias"],
-                "title": cat["title"]
+        # This code makes the API request
+        response = requests.get(url, headers=headers, params=params)
+        r_list = response.json()
+
+        # Process each restaurant in response
+        for r in r_list['businesses']:
+            # Extract the image URL directly from each response
+            image_url = r.get("image_url", "")
+            # This is the restaurant details
+            r_details = {
+                "id": r["id"],
+                "name": r["name"],
+                "review_count": r["review_count"],
+                "rating": r["rating"],
+                "price_range": r.get("price"),
+                "location": {
+                    "city": r.get("location", {}).get("city"),
+                    "state": r.get("location", {}).get("state"),
+                },
+                "image_url": image_url,
+                "alias": r["categories"][0]["alias"],
+                "title": r["categories"][0]["title"]
             }
-            restaurant_categories.append(r_cat)
+            # Append the details of restaurant to the list named restaurant
+            restaurants.append(r_details)
+            # Process restaurant categories
+            c_id = r["id"]
+            restaurants.append(r_details)
+            for cat in r['categories']:
+                r_cat = {
+                    "id": c_id,
+                    "alias": cat["alias"],
+                    "title": cat["title"]
+                }
+                restaurant_categories.append(r_cat)
 
-tot_r = len(restaurants)
-print(tot_r)
+    tot_r = len(restaurants)
+    print(tot_r)
 
-with open('fetched_data/restaurants.json', 'w') as f:
-    json.dump(restaurants, f, indent=2)
+    with open(f'fetched_data/(location)_restaurants.json', 'w') as f:
+        json.dump(restaurants, f, indent=2)
 
-with open('fetched_data/restaurant_categories.json', 'w') as f:
-    json.dump(restaurant_categories, f, indent=2)
+    with open(f'fetched_data/(location)_restaurant_categories.json', 'w') as f:
+        json.dump(restaurant_categories, f, indent=2)
+
+
+# Call the function for Wilmington Delaware
+fetch_and_save_data("Wilmington, Delaware")
+
+# Call the function for Philadelphia
+fetch_and_save_data("Philadelphia")
