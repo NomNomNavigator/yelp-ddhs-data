@@ -4,6 +4,7 @@ from config import bearer_token
 
 # Yelp API endpoint for searching businesses
 url = "https://api.yelp.com/v3/businesses/search"
+
 headers = {
     "authorization": bearer_token,
     "accept": "application/json"
@@ -11,37 +12,38 @@ headers = {
 
 
 def fetch_and_save_data(location):
-    # Lists to store restaurant details and categories
+    # Going to build two json files - one for basic details, one that is a list of 1 to many categories for each.
+    # Initializes the lists to store restaurant categories and details
     restaurants = []
     restaurant_categories = []
 
-    # Initial values for offset and limit
-    offset = 0
-    limit = 50  # Yelp API limit per request
+    # Calculate the total number of API requests needed
+    total_requests = 376
+    requests_per_batch = 50
 
-    # Loop to fetch data until no more businesses are returned
-    while True:
-        # Parameters for the API request
+    # Loop to make API requests
+    for i in range(total_requests // requests_per_batch + 1):
+        if i == 0:
+            new_offset = "0"
+        else:
+            new_offset = str((50 * i) + 1)
+        # Parameters for the API
         params = {
             "location": location,
-            "limit": str(limit),
-            "offset": str(offset)
+            "limit": "50",
+            "offset": new_offset
         }
 
-        # Make API request to Yelp
+        # Make API request to Yelp using requests
         response = requests.get(url, headers=headers, params=params)
         r_list = response.json()
+        print(r_list)
 
-        # Check if no more businesses are returned
-        if not r_list['businesses']:
-            break
-
-        # Process each restaurant in the response
+        # Process each restaurant in response
         for r in r_list['businesses']:
-            # Extract the image URL from the response
+            # Extract the image URL directly from each response
             image_url = r.get("image_url", "")
-
-            # Details of the restaurant
+            # This is the restaurant details
             r_details = {
                 "id": r["id"],
                 "name": r["name"],
@@ -56,10 +58,8 @@ def fetch_and_save_data(location):
                 "alias": r["categories"][0]["alias"],
                 "title": r["categories"][0]["title"]
             }
-
-            # Append restaurant details to the list
+            # Append the details of the restaurant to the list named restaurants
             restaurants.append(r_details)
-
             # Process restaurant categories
             c_id = r["id"]
             for cat in r['categories']:
@@ -70,14 +70,9 @@ def fetch_and_save_data(location):
                 }
                 restaurant_categories.append(r_cat)
 
-        # Increment offset for the next page of results
-        offset += limit
-
-    # Print the total number of restaurants fetched
     tot_r = len(restaurants)
     print(tot_r)
 
-    # Save restaurant details and categories to JSON files
     with open(f'fetched_data/{location}_restaurants.json', 'w') as f:
         json.dump(restaurants, f, indent=2)
 
@@ -90,3 +85,4 @@ fetch_and_save_data("Wilmington, Delaware")
 
 # Call the function for Philadelphia
 fetch_and_save_data("Philadelphia")
+
