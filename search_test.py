@@ -44,6 +44,7 @@ def fetch_and_save_data(location):
         # This code makes the API request
         response = requests.get(url, headers=headers, params=params)
         r_list = response.json()
+        print(r_list)
 
         # Process each restaurant in response
         for r in r_list['businesses']:
