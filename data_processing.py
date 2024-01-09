@@ -29,3 +29,18 @@ def process_data(location):
 
     # Save processed data to CSV
     df_restaurants.to_csv(f'processed_data/{location}_processed_data.csv', index=False)
+
+
+# The script is designed to process data fetched from Yelp API and transform it into a structured format.
+# The DataFrame 'df_restaurants' is used to store the fetched data for further processing.
+
+# Extracted information such as restaurant names, cuisines, review counts, ratings, price ranges, image URLs,
+# and categories is stored in separate lists for analysis.
+
+# The 'location' dictionary is split into separate columns 'cities' and 'states' for more detailed location information.
+
+# Data cleaning and structuring steps are performed, for example, converting the price range to numerical
+# representation.
+
+# The processed data is saved to a CSV file for further analysis and visualization.
+
